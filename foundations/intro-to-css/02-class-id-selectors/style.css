@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+.a-class, .class-but-cooler {
+   background-color: rgb(241, 115, 115);
+   font-family: Tahoma, serif;
+}
+
+.class-but-cooler {
+   font-size: 25px;
+}
+
+#one-id, #another-id {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#one-id {
+   color: blue;
+   font-size: 30px;
+}
+
+#another-id {
+   background-color: rgb(104, 237, 131);
+   font-size: 20px;
+}
