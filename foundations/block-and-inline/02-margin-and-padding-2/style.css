@@ -8,7 +8,7 @@ body {
   background: #fff;
   margin: 16px auto;
   padding: 10px;
-}
+} /* I forgot that the card's padding is all of the blue boxes */
 
 .title {
   background: #e3f4ff;
