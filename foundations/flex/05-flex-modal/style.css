@@ -17,9 +17,20 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 491px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.header {
+  font-weight: bold;
+  margin: 0px 65px 0px 10px;
+  font-size: 20px;
+}
+
+.top-section {
+  display: flex;
+  padding: 20px 15px 10px 10px;
 }
 
 .icon {
@@ -50,10 +61,15 @@ body {
   padding: 0;
 }
 
-button {
+.bottom-section {
+  margin: -15px 3px 10px 63px;
+}
+
+.bottom-section button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 15px 0px 15px 0px;
 }
 
 button.continue {
