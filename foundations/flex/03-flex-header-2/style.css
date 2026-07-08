@@ -12,6 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 10px; /* to add space to all the elements inside in all sides */
 }
 
 .profile-image {
@@ -27,6 +29,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -35,6 +40,10 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-right: 20px;
+  width: 155px; /* Changed the width and height of button to match the size of pfp */
+  height: 35px; 
+  margin-top: 7px; /* Made sure that the button is aligned center with the pfp */
 }
 
 a {
@@ -45,4 +54,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-grow: 10; /* i grew the size of the ul so the button will be moved away to the right */
 }

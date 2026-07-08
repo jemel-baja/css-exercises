@@ -1,7 +1,7 @@
-/* Narrow: .header  {
+.header  {
   font-family: monospace;
   background: papayawhip;
-  padding: 8px;
+  padding: 8px; /* adds beige space on all directions */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +20,7 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 10px;
+  gap: 10px; /* adds space between the anchor tags */
 }
 
 a {
@@ -28,4 +28,4 @@ a {
   background: white;
   padding: 8px;
   text-decoration: none;
-} */
+}
